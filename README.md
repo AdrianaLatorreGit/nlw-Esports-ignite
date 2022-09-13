@@ -38,6 +38,7 @@ npx tailwindcss init -p
 -altera 'content' tailwind.config.cjs
 -cria o styles/main com confg do tailwind
 
+npm i phosphor-react
 
 MOBILE
 

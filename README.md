@@ -46,3 +46,6 @@ npm install --global expo-cli
 expo init mobile
 blank (TypeScript) same as blank but with TypeScript configuration
 expo start
+expo install expo-font @expo-google-fonts/inter
+expo install react-native-safe-area-context
+expo install expo-linear-gradient

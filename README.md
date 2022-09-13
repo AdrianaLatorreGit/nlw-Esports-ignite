@@ -28,16 +28,20 @@ inicializador tipo nodemon para typescript
 npm ts-node-dev -D
 "dev" : "tsnd src/server.ts"
 
-
 REACT
 
 npm create vite@latest
 web-React-Typescript
 npm install
+npm i -D tailwindcss autoprefixer
+npx tailwindcss init -p
+-altera 'content' tailwind.config.cjs
+-cria o styles/main com confg do tailwind
+
 
 MOBILE
 
 npm install --global expo-cli
 expo init mobile
- blank (TypeScript)  same as blank but with TypeScript configuration
- expo start
+blank (TypeScript) same as blank but with TypeScript configuration
+expo start

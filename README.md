@@ -26,7 +26,18 @@ npm i @types/express -D
 
 inicializador tipo nodemon para typescript
 npm ts-node-dev -D
-"dev" : "tsnd src/server.ts"
+"dev": "ts-node-dev --exit-child src/server.ts"
+
+npm i prisma -D
+npx prisma init -h
+npx prisma init --datasource-provider SQLite
+npx prisma migrate
+npx prisma migrate dev (name for the new migration "create table games", "create table ads")
+npx prisma studio (interface gráfica para navegar pelo banco)
+npm i @prisma/client
+
+npm i cors
+npm i @types/cors -D
 
 REACT
 

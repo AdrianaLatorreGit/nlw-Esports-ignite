@@ -2,6 +2,18 @@ import express from "express"
 
 const app = express();
 
+//API RESTful
+
+// app.get('/games', (request,response) =>{
+//    return response.json([])
+// })
+
+// app.post('/ads', (request,response) =>{
+//    return response.json([])
+// })
+
+
+
 app.get("/ads", (request,response) => {
    return response.json([
     { id: 1, name:"Anúncio 1"},
@@ -11,4 +23,6 @@ app.get("/ads", (request,response) => {
    ])
 });
 
-app.listen(3333);
+app.listen(3333, ()=>{
+   console.log("servidor rodando")
+});

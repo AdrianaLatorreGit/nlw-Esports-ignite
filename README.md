@@ -39,6 +39,8 @@ npm i @prisma/client
 npm i cors
 npm i @types/cors -D
 
+npm install @radix-ui/react-dialog
+
 REACT
 
 npm create vite@latest

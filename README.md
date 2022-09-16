@@ -62,3 +62,10 @@ expo start
 expo install expo-font @expo-google-fonts/inter
 expo install react-native-safe-area-context
 expo install expo-linear-gradient
+
+ifconfig (endereço Ip)
+npm install @react-navigation/native
+expo install react-native-screens
+npm install @react-navigation/native-stack
+npm install --save phosphor-react-native
+expo install react-native-svg

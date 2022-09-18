@@ -72,3 +72,8 @@ expo install react-native-screens
 npm install @react-navigation/native-stack
 npm install --save phosphor-react-native
 expo install react-native-svg
+expo install expo-clipboard
+expo install expo-notifications
+expo install expo-modules-core
+
+

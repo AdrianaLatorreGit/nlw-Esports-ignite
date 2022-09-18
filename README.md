@@ -52,6 +52,9 @@ npx tailwindcss init -p
 -cria o styles/main com confg do tailwind
 
 npm i phosphor-react
+npm install @radix-ui/react-checkbox
+npm install @radix-ui/react-toggle-group
+npm i axios
 
 MOBILE
 
